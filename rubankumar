@@ -1,0 +1,27 @@
+import java.util.scanner;
+public class main
+{
+public static void main(string[] args)
+{
+string val;
+int midval=0;
+string temp="";
+int startval=0;
+scanner sc = new scanner(system.in);
+val=sc.nextline();
+int totlen=val.length();
+midval=(tatlen)/2;
+for(int i=midval; i<totlen;i++)
+{
+temp=temp+val.charAt(i);
+system.out.printin(temp);
+}
+for(int i=1;i<=midval;i++)
+{
+temp=temp+val.substring(starval,i);
+system.out.print.in(temp);
+starval++;
+}
+}
+}
+
